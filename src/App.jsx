@@ -46,9 +46,7 @@ const App = () => {
           onChange={(e) => setDetail(e.target.value)}
         />
 
-        <button
-          className="bg-linear-to-r from-blue-500 to-purple-600 w-full text-white px-5 py-3 rounded-xl font-semibold tracking-wide shadow-lg hover:shadow-blue-500/30 active:scale-95 transition-transform duration-300"
-        >
+        <button className="bg-linear-to-r from-blue-500 to-purple-600 w-full text-white px-5 py-3 rounded-xl font-semibold tracking-wide shadow-lg hover:shadow-blue-500/30 active:scale-95 transition-transform duration-300">
           Add Note
         </button>
       </form>
